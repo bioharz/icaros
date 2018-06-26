@@ -21,8 +21,8 @@ namespace Icaros.Input {
         event System.Action FourthButtonReleased;
 
         event System.Action<float> xAxisRotated;
-        event System.Action<float> yAxisRotated;
-        event System.Action<float> zAxisRotated;
+        //event System.Action<float> yAxisRotated;
+        //event System.Action<float> zAxisRotated;
         event System.Action<Quaternion> RotationChanged;
 
         string GetDeviceTypeID();

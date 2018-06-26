@@ -15,8 +15,8 @@ namespace Icaros.Input {
                 BindAxis(new Axis() { name = DeviceManager.INPUT_THIRD_BUTTON, positiveButton = "i", type = 0 });
                 BindAxis(new Axis() { name = DeviceManager.INPUT_FOURTH_BUTTON, positiveButton = "o", type = 0 });
                 BindAxis(new Axis() { name = DeviceManager.INPUT_X_AXIS, positiveButton = "w", altPositiveButton = "up", negativeButton = "s", altNegativeButton = "down", type = 0 });
-                BindAxis(new Axis() { name = DeviceManager.INPUT_Y_AXIS, positiveButton = "e", altPositiveButton = "right ctrl", negativeButton = "q", altNegativeButton = "right shift", type = 0 });
-                BindAxis(new Axis() { name = DeviceManager.INPUT_Z_AXIS, positiveButton ="a", altPositiveButton = "left", negativeButton = "d", altNegativeButton = "right", type = 0 });
+                //BindAxis(new Axis() { name = DeviceManager.INPUT_Y_AXIS, positiveButton = "e", altPositiveButton = "right ctrl", negativeButton = "q", altNegativeButton = "right shift", type = 0 });
+                //BindAxis(new Axis() { name = DeviceManager.INPUT_Z_AXIS, positiveButton ="a", altPositiveButton = "left", negativeButton = "d", altNegativeButton = "right", type = 0 });
             }
             catch {
                 Debug.LogError("Failed to apply Keyboard input manager bindings.");
@@ -44,8 +44,8 @@ namespace Icaros.Input {
                 BindAxis(new Axis() { name = DeviceManager.INPUT_THIRD_BUTTON, positiveButton = "joystick button 2", type = 0 });
                 BindAxis(new Axis() { name = DeviceManager.INPUT_FOURTH_BUTTON, positiveButton = "joystick button 3", type = 0 });
                 BindAxis(new Axis() { name = DeviceManager.INPUT_X_AXIS, axis = 1, invert = true });
-                BindAxis(new Axis() { name = DeviceManager.INPUT_Y_AXIS, axis = 2 });
-                BindAxis(new Axis() { name = DeviceManager.INPUT_Z_AXIS, axis = 0 });
+                //BindAxis(new Axis() { name = DeviceManager.INPUT_Y_AXIS, axis = 2 });
+                //BindAxis(new Axis() { name = DeviceManager.INPUT_Z_AXIS, axis = 0 });
             }
             catch {
                 Debug.LogError("Failed to apply GearVR input manager bindings.");
@@ -78,8 +78,8 @@ namespace Icaros.Input {
             BindAxis(new Axis() { name = DeviceManager.INPUT_THIRD_BUTTON, positiveButton = "joystick button 2", type = 0 });
             BindAxis(new Axis() { name = DeviceManager.INPUT_FOURTH_BUTTON, positiveButton = "joystick button 3", type = 0 });
             BindAxis(new Axis() { name = DeviceManager.INPUT_X_AXIS, axis = 4 });
-            BindAxis(new Axis() { name = DeviceManager.INPUT_Y_AXIS, axis = 3, invert = true });
-            BindAxis(new Axis() { name = DeviceManager.INPUT_Z_AXIS, axis = 0, invert = true });
+            //BindAxis(new Axis() { name = DeviceManager.INPUT_Y_AXIS, axis = 3, invert = true });
+            //BindAxis(new Axis() { name = DeviceManager.INPUT_Z_AXIS, axis = 0, invert = true });
         }
 
         private class Axis {

@@ -15,8 +15,8 @@ public class DisplayInfo : MonoBehaviour
     internal int button3Count = 0;
     internal int button4Count = 0;
     internal float x = 0;
-    internal float y = 0;
-    internal float z = 0;
+    //internal float y = 0;
+    //internal float z = 0;
     internal List<string> devices = new List<string>();
     internal IInputDevice activeDevice = null;
 
@@ -38,8 +38,8 @@ public class DisplayInfo : MonoBehaviour
 
         // Events für X, Y und Z registrieren
         obj.xAxisRotated += (value) => x = value;
-        obj.yAxisRotated += (value) => y = value;
-        obj.zAxisRotated += (value) => z = value;
+        //obj.yAxisRotated += (value) => y = value;
+        //obj.zAxisRotated += (value) => z = value;
 
         activeDevice = obj;
     }
@@ -63,7 +63,7 @@ public class DisplayInfo : MonoBehaviour
     {
         var sb = new StringBuilder();
         sb.AppendFormat("Button Count: 1={0} / 2={1} / 3={2} / 4={3}", button1Count, button2Count, button3Count, button4Count).AppendLine();
-        sb.AppendFormat("Axis: X={0} / Y={1} / Z = {2}", x, y, z).AppendLine();
+        sb.AppendFormat("Axis: X={0}", x).AppendLine();
         sb.AppendFormat("Active Input: {0}", activeDevice != null ? activeDevice.GetDeviceName() : "").AppendLine();
         sb.AppendLine("Available Inputs:");
         foreach (var dev in devices)
