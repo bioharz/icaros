@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConnect", "TestConnect.csproj", "{97CADF2D-A88D-24A3-11FB-72A6AB6AF262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConnect.Editor", "TestConnect.Editor.csproj", "{EA994B9C-8B4D-77AF-DAC2-B3B62A9ADE58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97CADF2D-A88D-24A3-11FB-72A6AB6AF262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CADF2D-A88D-24A3-11FB-72A6AB6AF262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CADF2D-A88D-24A3-11FB-72A6AB6AF262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CADF2D-A88D-24A3-11FB-72A6AB6AF262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA994B9C-8B4D-77AF-DAC2-B3B62A9ADE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA994B9C-8B4D-77AF-DAC2-B3B62A9ADE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA994B9C-8B4D-77AF-DAC2-B3B62A9ADE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA994B9C-8B4D-77AF-DAC2-B3B62A9ADE58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
